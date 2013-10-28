@@ -6,7 +6,7 @@ A RESTful service which proxies HTTP requests that typically return json and pad
 
 #### Requirements
 
-All other dependencies are managed via Maven.
+All dependencies are managed via Maven.
 
 #### Execution
 
