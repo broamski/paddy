@@ -25,3 +25,17 @@ If you are unfortunate enough to be behind an HTTP proxy, I got your back.
 *Example:* http://localhost:8080/paddy/padify?url=http://sweetapi.bro.com/gimmie-json&callback=holla
 
 *Example:* http://localhost:8080/paddy/padify?url=http://sweetapi.bro.com/gimmie-json&callback=holla&lame_proxy=facist.proxy.local:8000
+
+##### Return: #####
+
+*Before:*
+{
+    "awesome": "totally",
+    "stay": "based"
+}
+
+*After:*
+callback({
+    "awesome": "totally",
+    "stay": "based"
+})
